@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'DreamTeam',
+  siteName: 'DreamTeam',
   description:
     'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
@@ -156,7 +156,7 @@ const favicons: Array<Favicons> = [
     rel: 'icon',
     type: 'image/png',
     sizes: '32x32',
-    href: '/favicon/favicon-32x32.png',
+    href: 'https://i.imgur.com/NQW9fIT.png',
   },
   {
     rel: 'icon',
